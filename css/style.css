@@ -1,3 +1,129 @@
 body {
     font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    padding: 4rem 2rem 2rem 2rem;
+}
+
+.header {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 2rem 0 3rem;
+    color: gray;
+}
+
+.header-title {
+    font-weight: 100;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.section {
+    width: 55%;
+    margin: 1rem;
+    padding: 1rem;
+    flex-grow: 1;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.75);
+}
+
+.section-tabel {
+    width: 100%;
+    text-align: left;
+    padding: 1rem;
+    border-bottom: 1px solid grey;
+    border-collapse: collapse;
+}
+
+.section-table__thead {
+    border-bottom: 1px solid gray;
+}
+
+th {
+    padding: 1rem;
+}
+td {
+    padding: 2rem 1rem;
+}
+
+.section-table__counter {
+    display: flex;
+}
+.square {
+    position: relative;
+    margin: 0;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-footer {
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.aside {
+    width: 25%;
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+    align-items: stretch;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.75);
+}
+
+.button {
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    border: 1px black;
+    background: black;
+    color: white;
+    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+    margin-right: 1rem;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button:hover {
+    background: white;
+    color: black;
+}
+
+.button-image {
+    border: none;
+    background: transparent;
+}
+
+.button-image:hover {
+    border: 1px solid black;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+    display: inline-block;
+}
+
+.footer {
+    height: 2rem;
+    width: 100%;
+    border-top: 1px solid gray;
+
 }
